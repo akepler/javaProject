@@ -37,16 +37,14 @@ public class Allalaadimine_failist {
 		int i=0;
 
 		String[][] a = new String[ridu_failis][2];
-	        
-		while(reader.ready()) {
-	        	
-			String rida = reader.readLine();
-			String[] tükid = rida.split(",");
 
-			a[i][0]=tükid[1];
-			a[i][1]=tükid[2];
-			i++;
-	      
+		while(reader.ready()) {
+				String rida = reader.readLine();
+				String[] tykid = rida.split(",");
+				a[i][0] = tykid[1];
+				a[i][1] = tykid[2];
+				i++;
+
 		}
 	      
 		v22rtused = a;
